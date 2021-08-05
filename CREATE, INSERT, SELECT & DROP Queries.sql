@@ -77,6 +77,9 @@ VALUES(04,142065,'Software Testing Methodologies','2021-08-11');
 INSERT INTO COURSE
 VALUES(05,1100335,'Introduction to DevOps','2021-08-12');
 
+INSERT INTO COURSE
+VALUES(02,1100335,'Data Structures and Algorithms','2021-08-11');
+
 
 --Select Tables
 --The SELECT statement is used to select data from a database.
