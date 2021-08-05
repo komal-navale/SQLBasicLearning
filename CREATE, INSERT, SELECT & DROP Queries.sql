@@ -94,6 +94,16 @@ FROM table_name;*/
 SELECT EMPLOYEE_ID, EMPLOYEE_NAME FROM EMPLOYEE;
 SELECT COURSE_ID,COURSE_NAME FROM COURSE;
 
+--Select Distinct Values
+/*The SELECT DISTINCT statement is used to return only distinct (different) values.
+Inside a table, a column often contains many duplicate values; and sometimes you only want to list the different (distinct) values.
+Syntax =>
+SELECT DISTINCT column1, column2, ...
+FROM table_name;*/
+
+SELECT DISTINCT COURSE_NAME
+FROM COURSE;
+
 --Drop Tables
 /*The DROP TABLE statement is used to drop an existing table in a database.
 Syntax => DROP TABLE table_name;*/
