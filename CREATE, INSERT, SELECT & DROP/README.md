@@ -1,0 +1,2 @@
+# CREATE, INSERT, SELECT & DROP Queries
+
